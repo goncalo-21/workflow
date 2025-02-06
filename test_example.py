@@ -1,8 +1,7 @@
-def add(a, b):
-    return a + b
+from example import add, subtract
 
-def subtract(a, b):
-    return a + b  # do not change this line until prompted to do so.
-    
 def test_add():
     assert add(2, 1) == 3
+
+def test_subtract():
+    assert subtract(2, 1) == 1
